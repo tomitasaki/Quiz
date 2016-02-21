@@ -34,6 +34,9 @@
 		BA1272F01C793DBC00483EB8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1272DA1C793DBC00483EB8 /* Icon@2x.png */; };
 		BA1272F11C793DBC00483EB8 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1272DB1C793DBC00483EB8 /* iTunesArtwork.png */; };
 		BA1272F21C793DBC00483EB8 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1272DC1C793DBC00483EB8 /* iTunesArtwork@2x.png */; };
+		BA1273731C79790500483EB8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1273701C79790500483EB8 /* Default-568h@2x.png */; };
+		BA1273741C79790500483EB8 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1273711C79790500483EB8 /* Default-667h@2x.png */; };
+		BA1273751C79790500483EB8 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA1273721C79790500483EB8 /* Default-736h@3x.png */; };
 		BA86A1F81C6B65A700F507FC /* ariniz.png in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1F71C6B65A700F507FC /* ariniz.png */; };
 		BA86A1FA1C6B676F00F507FC /* 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1F91C6B676F00F507FC /* 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg */; };
 		BA86A1FC1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1FB1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg */; };
@@ -84,6 +87,9 @@
 		BA1272DA1C793DBC00483EB8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		BA1272DB1C793DBC00483EB8 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		BA1272DC1C793DBC00483EB8 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		BA1273701C79790500483EB8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BA1273711C79790500483EB8 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		BA1273721C79790500483EB8 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		BA86A1F71C6B65A700F507FC /* ariniz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ariniz.png; sourceTree = "<group>"; };
 		BA86A1F91C6B676F00F507FC /* 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg; sourceTree = "<group>"; };
 		BA86A1FB1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mitsubishi3_cs1e1_x1000.jpg; sourceTree = "<group>"; };
@@ -174,6 +180,16 @@
 			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
+		BA12736F1C79790500483EB8 /* Defaults-master */ = {
+			isa = PBXGroup;
+			children = (
+				BA1273701C79790500483EB8 /* Default-568h@2x.png */,
+				BA1273711C79790500483EB8 /* Default-667h@2x.png */,
+				BA1273721C79790500483EB8 /* Default-736h@3x.png */,
+			);
+			path = "Defaults-master";
+			sourceTree = "<group>";
+		};
 		C7343E921A89986900D857EA = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +211,7 @@
 		C7343E9D1A89986900D857EA /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				BA12736F1C79790500483EB8 /* Defaults-master */,
 				BA1272C61C793DBC00483EB8 /* ios */,
 				BA86A1FB1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg */,
 				BA86A1F91C6B676F00F507FC /* 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg */,
@@ -327,6 +344,7 @@
 				BA1272F11C793DBC00483EB8 /* iTunesArtwork.png in Resources */,
 				BA1272F01C793DBC00483EB8 /* Icon@2x.png in Resources */,
 				C7343EAB1A89986900D857EA /* LaunchScreen.xib in Resources */,
+				BA1273741C79790500483EB8 /* Default-667h@2x.png in Resources */,
 				BA1272E61C793DBC00483EB8 /* Icon-83.5@2x.png in Resources */,
 				BA1272E91C793DBC00483EB8 /* Icon-Small@3x.png in Resources */,
 				BA1272EE1C793DBC00483EB8 /* Icon-Small-50@2x.png in Resources */,
@@ -340,9 +358,11 @@
 				BA86A1FC1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg in Resources */,
 				BA1272DE1C793DBC00483EB8 /* Contents.json in Resources */,
 				BA1272E21C793DBC00483EB8 /* Icon-60@2x.png in Resources */,
+				BA1273751C79790500483EB8 /* Default-736h@3x.png in Resources */,
 				BA1272E71C793DBC00483EB8 /* Icon-Small.png in Resources */,
 				BA1272E81C793DBC00483EB8 /* Icon-Small@2x.png in Resources */,
 				BA86A1F81C6B65A700F507FC /* ariniz.png in Resources */,
+				BA1273731C79790500483EB8 /* Default-568h@2x.png in Resources */,
 				BA1272E01C793DBC00483EB8 /* Icon-40@2x.png in Resources */,
 				AF223C451A8C6B9100E3B3B9 /* Default-667h@2x.png in Resources */,
 				BA1272DF1C793DBC00483EB8 /* Icon-40.png in Resources */,
@@ -497,7 +517,7 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.tommy69.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -509,7 +529,7 @@
 				INFOPLIST_FILE = Quiz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.tommy69.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
