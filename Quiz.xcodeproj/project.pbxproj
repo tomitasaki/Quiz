@@ -40,6 +40,15 @@
 		BA86A1F81C6B65A700F507FC /* ariniz.png in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1F71C6B65A700F507FC /* ariniz.png */; };
 		BA86A1FA1C6B676F00F507FC /* 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1F91C6B676F00F507FC /* 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg */; };
 		BA86A1FC1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA86A1FB1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg */; };
+		BAA23CB21C80C3E700E4ED10 /* img004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CA91C80C3E700E4ED10 /* img004.jpg */; };
+		BAA23CB31C80C3E700E4ED10 /* kaonasi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CAA1C80C3E700E4ED10 /* kaonasi.jpg */; };
+		BAA23CB41C80C3E700E4ED10 /* karatotoro hidari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CAB1C80C3E700E4ED10 /* karatotoro hidari.jpg */; };
+		BAA23CB51C80C3E700E4ED10 /* karatotoro migi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CAC1C80C3E700E4ED10 /* karatotoro migi.jpg */; };
+		BAA23CB61C80C3E700E4ED10 /* mei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CAD1C80C3E700E4ED10 /* mei.jpg */; };
+		BAA23CB71C80C3E700E4ED10 /* totoro ka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CAE1C80C3E700E4ED10 /* totoro ka.jpg */; };
+		BAA23CB81C80C3E700E4ED10 /* totoro o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CAF1C80C3E700E4ED10 /* totoro o.jpg */; };
+		BAA23CB91C80C3E700E4ED10 /* totoro re.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CB01C80C3E700E4ED10 /* totoro re.jpg */; };
+		BAA23CBA1C80C3E700E4ED10 /* totoro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CB11C80C3E700E4ED10 /* totoro.jpg */; };
 		C7343EA11A89986900D857EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7343EA01A89986900D857EA /* AppDelegate.swift */; };
 		C7343EA61A89986900D857EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA41A89986900D857EA /* Main.storyboard */; };
 		C7343EA81A89986900D857EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA71A89986900D857EA /* Images.xcassets */; };
@@ -93,6 +102,15 @@
 		BA86A1F71C6B65A700F507FC /* ariniz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ariniz.png; sourceTree = "<group>"; };
 		BA86A1F91C6B676F00F507FC /* 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg; sourceTree = "<group>"; };
 		BA86A1FB1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mitsubishi3_cs1e1_x1000.jpg; sourceTree = "<group>"; };
+		BAA23CA91C80C3E700E4ED10 /* img004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img004.jpg; sourceTree = "<group>"; };
+		BAA23CAA1C80C3E700E4ED10 /* kaonasi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kaonasi.jpg; sourceTree = "<group>"; };
+		BAA23CAB1C80C3E700E4ED10 /* karatotoro hidari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "karatotoro hidari.jpg"; sourceTree = "<group>"; };
+		BAA23CAC1C80C3E700E4ED10 /* karatotoro migi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "karatotoro migi.jpg"; sourceTree = "<group>"; };
+		BAA23CAD1C80C3E700E4ED10 /* mei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mei.jpg; sourceTree = "<group>"; };
+		BAA23CAE1C80C3E700E4ED10 /* totoro ka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "totoro ka.jpg"; sourceTree = "<group>"; };
+		BAA23CAF1C80C3E700E4ED10 /* totoro o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "totoro o.jpg"; sourceTree = "<group>"; };
+		BAA23CB01C80C3E700E4ED10 /* totoro re.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "totoro re.jpg"; sourceTree = "<group>"; };
+		BAA23CB11C80C3E700E4ED10 /* totoro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = totoro.jpg; sourceTree = "<group>"; };
 		C7343E9B1A89986900D857EA /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7343E9F1A89986900D857EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7343EA01A89986900D857EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -190,6 +208,22 @@
 			path = "Defaults-master";
 			sourceTree = "<group>";
 		};
+		BAA23CA81C80C3E700E4ED10 /* ジブリ */ = {
+			isa = PBXGroup;
+			children = (
+				BAA23CA91C80C3E700E4ED10 /* img004.jpg */,
+				BAA23CAA1C80C3E700E4ED10 /* kaonasi.jpg */,
+				BAA23CAB1C80C3E700E4ED10 /* karatotoro hidari.jpg */,
+				BAA23CAC1C80C3E700E4ED10 /* karatotoro migi.jpg */,
+				BAA23CAD1C80C3E700E4ED10 /* mei.jpg */,
+				BAA23CAE1C80C3E700E4ED10 /* totoro ka.jpg */,
+				BAA23CAF1C80C3E700E4ED10 /* totoro o.jpg */,
+				BAA23CB01C80C3E700E4ED10 /* totoro re.jpg */,
+				BAA23CB11C80C3E700E4ED10 /* totoro.jpg */,
+			);
+			path = "ジブリ";
+			sourceTree = "<group>";
+		};
 		C7343E921A89986900D857EA = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +245,7 @@
 		C7343E9D1A89986900D857EA /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				BAA23CA81C80C3E700E4ED10 /* ジブリ */,
 				BA12736F1C79790500483EB8 /* Defaults-master */,
 				BA1272C61C793DBC00483EB8 /* ios */,
 				BA86A1FB1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg */,
@@ -341,11 +376,17 @@
 				BA1272EC1C793DBC00483EB8 /* Icon-72@2x.png in Resources */,
 				B101ABFB1B53797400919FB9 /* true.png in Resources */,
 				B101ABFA1B53797400919FB9 /* start.png in Resources */,
+				BAA23CB91C80C3E700E4ED10 /* totoro re.jpg in Resources */,
+				BAA23CB61C80C3E700E4ED10 /* mei.jpg in Resources */,
 				BA1272F11C793DBC00483EB8 /* iTunesArtwork.png in Resources */,
+				BAA23CB41C80C3E700E4ED10 /* karatotoro hidari.jpg in Resources */,
 				BA1272F01C793DBC00483EB8 /* Icon@2x.png in Resources */,
+				BAA23CB81C80C3E700E4ED10 /* totoro o.jpg in Resources */,
 				C7343EAB1A89986900D857EA /* LaunchScreen.xib in Resources */,
 				BA1273741C79790500483EB8 /* Default-667h@2x.png in Resources */,
+				BAA23CBA1C80C3E700E4ED10 /* totoro.jpg in Resources */,
 				BA1272E61C793DBC00483EB8 /* Icon-83.5@2x.png in Resources */,
+				BAA23CB21C80C3E700E4ED10 /* img004.jpg in Resources */,
 				BA1272E91C793DBC00483EB8 /* Icon-Small@3x.png in Resources */,
 				BA1272EE1C793DBC00483EB8 /* Icon-Small-50@2x.png in Resources */,
 				C7343EA81A89986900D857EA /* Images.xcassets in Resources */,
@@ -366,10 +407,13 @@
 				BA1272E01C793DBC00483EB8 /* Icon-40@2x.png in Resources */,
 				AF223C451A8C6B9100E3B3B9 /* Default-667h@2x.png in Resources */,
 				BA1272DF1C793DBC00483EB8 /* Icon-40.png in Resources */,
+				BAA23CB31C80C3E700E4ED10 /* kaonasi.jpg in Resources */,
 				AF223C461A8C6B9100E3B3B9 /* Default-736h@3x.png in Resources */,
 				BA1272E41C793DBC00483EB8 /* Icon-76.png in Resources */,
+				BAA23CB71C80C3E700E4ED10 /* totoro ka.jpg in Resources */,
 				B101ABF91B53797400919FB9 /* false.png in Resources */,
 				BA1272E51C793DBC00483EB8 /* Icon-76@2x.png in Resources */,
+				BAA23CB51C80C3E700E4ED10 /* karatotoro migi.jpg in Resources */,
 				BA86A1FA1C6B676F00F507FC /* 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

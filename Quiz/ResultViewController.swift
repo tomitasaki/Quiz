@@ -16,7 +16,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        resultLabel.text = "\(correctAnswer)"
+        resultLabel.text = "30問中\(correctAnswer)問でした！"
     }
 
     override func didReceiveMemoryWarning() {
