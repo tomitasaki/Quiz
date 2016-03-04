@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="afj-nt-XY0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="thM-On-rbe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="正解だと思うものをタップしましょう。　　　　３０問あるよ。" translatesAutoresizingMaskIntoConstraints="NO" id="GdQ-wO-3uc">
@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFW-nj-qSB">
-                                <rect key="frame" x="47" y="442" width="248" height="85"/>
+                                <rect key="frame" x="36" y="354" width="248" height="85"/>
                                 <state key="normal" title="Button" image="start.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -38,16 +38,16 @@
                                     <segue destination="zUR-C7-wa4" kind="modal" id="IfF-2g-dYw"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mei.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Li6-SR-okq">
-                                <rect key="frame" x="13" y="297" width="182" height="146"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kaonasi.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UTJ-Bn-xYU">
                                 <rect key="frame" x="202" y="108" width="85" height="148"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mei.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Li6-SR-okq">
+                                <rect key="frame" x="12" y="200" width="182" height="146"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96695965920000004" green="0.98237126890000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SOt-QM-0f8" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,7 +62,7 @@
                         <viewControllerLayoutGuide type="bottom" id="i2J-jM-bFh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XoH-Ch-WXI">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="問題文" translatesAutoresizingMaskIntoConstraints="NO" id="Qsi-kj-bP3">
@@ -72,26 +72,16 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="karatotoro migi.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pab-kF-oxs">
-                                <rect key="frame" x="-5" y="423" width="97" height="145"/>
+                                <rect key="frame" x="0.0" y="335" width="97" height="145"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="karatotoro migi.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wJJ-vW-x0R">
-                                <rect key="frame" x="-5" y="180" width="97" height="145"/>
+                                <rect key="frame" x="-5" y="158" width="97" height="145"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="karatotoro hidari.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IAx-nQ-tli">
-                                <rect key="frame" x="228" y="304" width="92" height="145"/>
+                                <rect key="frame" x="228" y="263" width="92" height="145"/>
                             </imageView>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icb-M2-MJk">
-                                <rect key="frame" x="100" y="198" width="210" height="105"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="choiceAnswer:" destination="zUR-C7-wa4" eventType="touchUpInside" id="oSU-Q2-hKQ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwS-8h-adt">
-                                <rect key="frame" x="92" y="469" width="228" height="91"/>
+                                <rect key="frame" x="91" y="389" width="228" height="91"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -100,7 +90,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRH-Mz-Pn8">
-                                <rect key="frame" x="16" y="333" width="294" height="87"/>
+                                <rect key="frame" x="16" y="281" width="294" height="87"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -109,10 +99,20 @@
                                     <action selector="choiceAnswer:" destination="zUR-C7-wa4" eventType="touchUpInside" id="yLg-37-fJi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icb-M2-MJk">
+                                <rect key="frame" x="100" y="178" width="210" height="105"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="choiceAnswer:" destination="zUR-C7-wa4" eventType="touchUpInside" id="oSU-Q2-hKQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96695965920000004" green="0.98237126890000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="choiceButtons1" destination="Icb-M2-MJk" id="7cv-dU-HUd"/>
                         <outlet property="choiceButtons2" destination="wRH-Mz-Pn8" id="7xm-JN-7GU"/>
@@ -134,7 +134,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ErO-e0-hq4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dsf-Ud-eE1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="結果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsu-ij-acI">
@@ -157,18 +157,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="91" height="127"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="totoro.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iVM-eI-JfQ">
-                                <rect key="frame" x="0.0" y="441" width="91" height="127"/>
+                                <rect key="frame" x="0.0" y="353" width="91" height="127"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="totoro ka.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AE0-eu-0IU">
                                 <rect key="frame" x="229" y="0.0" width="91" height="127"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="totoro re.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6gv-xb-neI">
-                                <rect key="frame" x="236" y="441" width="84" height="127"/>
+                                <rect key="frame" x="236" y="353" width="84" height="127"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96695965920000004" green="0.98237126890000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="resultLabel" destination="Tsu-ij-acI" id="4Pm-6o-BM9"/>
                     </connections>
