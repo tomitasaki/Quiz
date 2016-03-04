@@ -49,6 +49,8 @@
 		BAA23CB81C80C3E700E4ED10 /* totoro o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CAF1C80C3E700E4ED10 /* totoro o.jpg */; };
 		BAA23CB91C80C3E700E4ED10 /* totoro re.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CB01C80C3E700E4ED10 /* totoro re.jpg */; };
 		BAA23CBA1C80C3E700E4ED10 /* totoro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAA23CB11C80C3E700E4ED10 /* totoro.jpg */; };
+		BAD4C39C1C89839400540727 /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD4C39B1C89839400540727 /* StoryboardHelper.swift */; };
+		BAD4C3A01C8984CF00540727 /* 3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD4C39F1C8984CF00540727 /* 3.5inch.storyboard */; };
 		C7343EA11A89986900D857EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7343EA01A89986900D857EA /* AppDelegate.swift */; };
 		C7343EA61A89986900D857EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA41A89986900D857EA /* Main.storyboard */; };
 		C7343EA81A89986900D857EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7343EA71A89986900D857EA /* Images.xcassets */; };
@@ -111,6 +113,8 @@
 		BAA23CAF1C80C3E700E4ED10 /* totoro o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "totoro o.jpg"; sourceTree = "<group>"; };
 		BAA23CB01C80C3E700E4ED10 /* totoro re.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "totoro re.jpg"; sourceTree = "<group>"; };
 		BAA23CB11C80C3E700E4ED10 /* totoro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = totoro.jpg; sourceTree = "<group>"; };
+		BAD4C39B1C89839400540727 /* StoryboardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		BAD4C39F1C8984CF00540727 /* 3.5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 3.5inch.storyboard; path = ios/3.5inch.storyboard; sourceTree = "<group>"; };
 		C7343E9B1A89986900D857EA /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7343E9F1A89986900D857EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7343EA01A89986900D857EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -251,9 +255,11 @@
 				BA86A1FB1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg */,
 				BA86A1F91C6B676F00F507FC /* 37d9ebb17e88044f0ef37277b652c12da06abe2fae5840dc.jpg */,
 				BA86A1F71C6B65A700F507FC /* ariniz.png */,
+				BAD4C39B1C89839400540727 /* StoryboardHelper.swift */,
 				C7343EA01A89986900D857EA /* AppDelegate.swift */,
 				C7343EC01A89997C00D857EA /* QuizViewController.swift */,
 				C7FE4DDF1A8A17B9004C530A /* ResultViewController.swift */,
+				BAD4C39F1C8984CF00540727 /* 3.5inch.storyboard */,
 				C7343EA41A89986900D857EA /* Main.storyboard */,
 				C7343EA71A89986900D857EA /* Images.xcassets */,
 				C7343EA91A89986900D857EA /* LaunchScreen.xib */,
@@ -395,6 +401,7 @@
 				BA1272EF1C793DBC00483EB8 /* Icon.png in Resources */,
 				BA1272EB1C793DBC00483EB8 /* Icon-72.png in Resources */,
 				BA1272E11C793DBC00483EB8 /* Icon-40@3x.png in Resources */,
+				BAD4C3A01C8984CF00540727 /* 3.5inch.storyboard in Resources */,
 				BA1272EA1C793DBC00483EB8 /* Icon-60.png in Resources */,
 				BA86A1FC1C6B67F800F507FC /* mitsubishi3_cs1e1_x1000.jpg in Resources */,
 				BA1272DE1C793DBC00483EB8 /* Contents.json in Resources */,
@@ -434,6 +441,7 @@
 			files = (
 				C7343EA11A89986900D857EA /* AppDelegate.swift in Sources */,
 				C7343EC11A89997C00D857EA /* QuizViewController.swift in Sources */,
+				BAD4C39C1C89839400540727 /* StoryboardHelper.swift in Sources */,
 				C7FE4DE01A8A17B9004C530A /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
